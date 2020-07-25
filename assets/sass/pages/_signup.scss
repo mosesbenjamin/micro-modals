@@ -1,0 +1,27 @@
+hr{
+    position: relative; 
+    border: none; 
+    height: 2px; 
+    background: $secondary-color; 
+    margin-bottom: 25px; 
+}
+input{
+    background-color: $secondary-color !important;
+    border-radius: 0 !important;
+}
+.sign {
+    text-decoration: none;
+    color: $primary-color !important;
+
+    &:hover {
+      text-decoration: none;
+      color: $primary-color !important;
+    }
+}
+#a-link {
+    color: $secondary-color !important;
+}
+
+$primary-color: #1A1B2D;
+$secondary-color: #fff;
+$tetiary-color: #f4f4f4;

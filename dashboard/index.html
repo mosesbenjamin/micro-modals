@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+<link rel="stylesheet" href="/assets/css/style.min.css">
+<title>MicroAPI - Dashboard</title>
+</head>
+<body>
+    <section>
+        <div class="d-flex justify-content-center mt-5">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#launchModal">
+                Launch modal 1
+            </button>
+        </div>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="launchModal" tabindex="-1" role="dialog" aria-labelledby="2" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-body modal-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true"  class="modal-content__icon">&times;</span>
+                                </button>   
+                                <h5 class="modal-content__title" id="exampleModalLongTitle">How are you using MicroAPI</h5>  
+                                <p class="modal-content__text">These settings would be saved to your account</p>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-around">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input modal-content__radio" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" checked>
+                                <label class="form-check-label modal-content__label" for="inlineRadio1">Individual</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input modal-content__radio" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                <label class="form-check-label modal-content__label" for="inlineRadio2">Company</label>
+                            </div>
+                        </div>  
+                        <div class="d-flex justify-content-end">
+                            <a href="#" class="modal-content__button">Continue</a>
+                        </div>
+                    </div>      
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <section>
+            <div class="d-flex justify-content-center mt-5">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#launchModal2">
+                    Launch modal 2
+                </button>
+            </div>
+            
+            <!-- Modal -->
+            <div class="modal fade" id="launchModal2" tabindex="-1" role="dialog" aria-labelledby="launchModal2Title" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-body modal-content">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close2">
+                                        <span aria-hidden="true"  class="modal-content__icon">&times;</span>
+                                    </button>   
+                                    <h5 class="modal-content__title" id="exampleModalLongTitle">How are you using MicroAPI</h5>  
+                                    <p class="modal-content__text">These settings would be saved to your account</p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-around">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input modal-content__radio" type="radio" name="inlineRadioOptions2" id="inlineRadio3" value="option3">
+                                    <label class="form-check-label modal-content__label" for="inlineRadio3">Individual</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input modal-content__radio" type="radio" name="inlineRadioOptions2" id="inlineRadio4" value="option4" checked>
+                                    <label class="form-check-label modal-content__label" for="inlineRadio4">Company</label>
+                                </div>
+                            </div>  
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-10">
+                                        <form class="mt-5">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control input" id="name" placeholder="Name">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="invite" class="modal-content__label__two">Invite Others</label>
+                                                <input type="text" class="form-control  input" id="invite" placeholder="Enter email address">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control input" id="invite" placeholder="Enter email address">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control input" id="invite" placeholder="Enter email address">
+                                            </div>
+                                            <button class="button">Invite</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            <div class="d-flex justify-content-end">
+                                <a href="#" class="modal-content__button">Continue</a>
+                            </div>
+                        </div>      
+                    </div>
+                </div>
+            </div>
+            </section>    
+
+        
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
